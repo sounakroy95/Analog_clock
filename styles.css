@@ -93,6 +93,9 @@ position: relative;
 .clock .label {
 font-family: Gotham Rounded, sans-serif;
 box-sizing: border-box;
+border: 1px solid black;
+border-radius: 6px;
+padding: 4px;
 position: absolute;
 width: auto;
 top: 70%;
