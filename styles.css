@@ -81,10 +81,21 @@ position: relative;
 .clock .hand.minute {
     width: 7px;
     height: 40%;
-    background-color: black;
+    background-color: blue;
 }
 .clock .hand.hour {
     width: 10px;
     height: 35%;
     background-color:black;
+}
+
+
+.clock .label {
+font-family: Gotham Rounded, sans-serif;
+box-sizing: border-box;
+position: absolute;
+width: auto;
+top: 70%;
+left: 50%;
+transform: translateX(-50%);
 }
